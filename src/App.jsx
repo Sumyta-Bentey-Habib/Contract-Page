@@ -1,25 +1,15 @@
-import './App.css'
-import ContractHeader from './components/contract/ContractHeader'
-import NavBer from './components/navber/NavBer'
-import ContractSection from './components/contractsection/ContractSection'
-
-
-
+import "./App.css";
+import ContractHeader from "./components/contract/ContractHeader";
+import ContractFrom from "./components/contractfrom/ContractFrom";
+import NavBer from "./components/navber/NavBer";
 function App() {
-  
-
   return (
     <>
       <NavBer></NavBer>
       <ContractHeader></ContractHeader>
-    <ContractSection></ContractSection>
-     
-    
-     
-
-     
+      <ContractFrom></ContractFrom>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
